@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            font-size: 16px;
+            color: #333;
+            background: url('https://png.pngtree.com/thumb_back/fh260/background/20210324/pngtree-memphis-playful-abstract-portfolio-pink-image_593420.jpg') no-repeat center center/cover;
+        }
+
+        header {
+            /*background: rgba(51, 51, 51, 0.8);*/
+            color: black;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        nav {
+            text-align: center;
+            margin: 1rem 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: lightcoral;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #007bff;
+        }
+
+        .section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .about {
+            text-align: center;
+        }
+
+        .education, .achievements {
+            margin-top: 2rem;
+        }
+        
+        .achievements {
+            margin-bottom: 2rem; /* Add space below achievements */
+        }
+
+        footer {
+            background: rgba(51, 51, 51, 0.8);
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        .contact-links a {
+            display: inline-block;
+            margin: 0.5rem;
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+
+        .contact-links a img {
+            width: 34px;
+            height: 34px;
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+
+        .contact-links a:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#education">Education</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about" class="section about">
+        <h2>About Me</h2>
+        <p>Hello! All, My name is Nisarg Patel. I am a passionate developer with skills in web development, data structures, and more. I love building projects that solve real-world problems.</p>
+    </section>
+
+    <section id="education" class="section education">
+        <h2>Education</h2>
+        <p><strong>Bachelor of Technology in Computer Science</strong><br>Charotar University of Science & Technology, 2023-2027</p>
+        <p><strong>Higher School</strong><br>Phoenix Institute, 2021-2023</p>
+    </section>
+
+    <section id="achievements" class="section achievements">
+        <h2>Achievements</h2>
+        <ul>
+            <li>Successfully completed a 12-week online course with distinction</li>
+            <li>Certified in Data Structures & Algorithms Using JAVA by IIT Kharagpur with 84% (Top 2%)</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Feel free to reach out via:</p>
+        <div class="contact-links">
+            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">
+                <img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png" alt="Email">Email
+            </a>
+            <a href="https://www.linkedin.com/in/nisarg-h-patel-b75b81284?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                <img src="https://e7.pngegg.com/pngimages/602/665/png-clipart-linkedin-linkedin-thumbnail.png" alt="LinkedIn">LinkedIn
+            </a>
+            <a href="https://www.instagram.com/nisargpatel_0303?igsh=eHNpYmNlN2NzNzhk" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" alt="Instagram">Instagram
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
